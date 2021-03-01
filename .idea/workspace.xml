@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1bcf1b8-cc93-45c6-9417-fd9370ea7040" name="Default Changelist" comment="charmi">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/OS_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OS_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
@@ -38,7 +34,7 @@
       <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614619859938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="charmi">
+      <created>1614621304849</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614621304849</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,26 +163,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1614620313652" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1614621603895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1614621603895" />
     <state x="547" y="166" key="FileChooserDialogImpl" timestamp="1614619957382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="547" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614619957382" />
-    <state width="1489" height="209" key="GridCell.Tab.0.bottom" timestamp="1614621156194">
+    <state width="1489" height="209" key="GridCell.Tab.0.bottom" timestamp="1614622898252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614621156194" />
-    <state width="1489" height="209" key="GridCell.Tab.0.center" timestamp="1614621156194">
+    <state width="1489" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614622898252" />
+    <state width="1489" height="209" key="GridCell.Tab.0.center" timestamp="1614622898252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614621156194" />
-    <state width="1489" height="209" key="GridCell.Tab.0.left" timestamp="1614621156194">
+    <state width="1489" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614622898252" />
+    <state width="1489" height="209" key="GridCell.Tab.0.left" timestamp="1614622898252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614621156194" />
-    <state width="1489" height="209" key="GridCell.Tab.0.right" timestamp="1614621156194">
+    <state width="1489" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614622898252" />
+    <state width="1489" height="209" key="GridCell.Tab.0.right" timestamp="1614622898252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1489" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614621156194" />
+    <state width="1489" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614622898252" />
     <state x="406" y="172" key="MultipleFileMergeDialog" timestamp="1614619910032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -188,10 +195,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="276" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614619958575" />
-    <state x="473" y="200" key="git4idea.merge.GitPullDialog" timestamp="1614619892292">
+    <state x="473" y="200" key="git4idea.merge.GitPullDialog" timestamp="1614621334930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1614619892292" />
+    <state x="473" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1614621334930" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1614585170452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
