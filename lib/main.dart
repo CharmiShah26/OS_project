@@ -32,7 +32,7 @@ class FirstScreen extends StatelessWidget {
     return Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/1.gif"),
+            image: AssetImage("images/OS PROJECT.png"),
             fit: BoxFit.cover,
           ),
         ),
@@ -43,7 +43,7 @@ class FirstScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Container(
+                /*Container(
                   width: 320,
                   alignment: Alignment.center,
                   child: Text(
@@ -70,7 +70,7 @@ class FirstScreen extends StatelessWidget {
                     textAlign: TextAlign.start,
                     transitionHeight: 86,
                   ),
-                ),
+                ),*/
                 RaisedButton(
                   color: Color(0xFF22456D),
                   child: Text(
@@ -81,6 +81,7 @@ class FirstScreen extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
+                    
                     // Navigate to the second screen using a named route.
                     Navigator.pushNamed(context, '/second');
                   },
