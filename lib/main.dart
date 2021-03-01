@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:os_project/animation1.dart';
@@ -10,9 +11,10 @@ import 'Algorithm page.dart';
 import 'package:os_project/main_sp.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
+
 void main() {
   runApp(MaterialApp(
-    title: 'Named Rout Demo',
+    title: 'Named Routes',
     // Start the app with the "/" named route. In this case, the app starts
     // on the FirstScreen widget.
     initialRoute: '/',
@@ -22,6 +24,7 @@ void main() {
       '/second': (context) => IntroTwoPage(),
       '/third': (context) => WaveDemoApp(),
       '/fourth': (context) => OSProject(),
+      //'/FCFS': (context) => FCFS(),
     },
   ));
 }
@@ -32,7 +35,7 @@ class FirstScreen extends StatelessWidget {
     return Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/OS PROJECT.png"),
+            image: AssetImage("images/homepage.gif"),
             fit: BoxFit.cover,
           ),
         ),
@@ -43,11 +46,11 @@ class FirstScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                /*Container(
+                Container(
                   width: 320,
                   alignment: Alignment.center,
                   child: Text(
-                    "OS Virtual Lab",
+                    " ",
                     style: TextStyle(fontSize: 32.0, color: Colors.deepOrange),
                   ),
                 ),
@@ -58,11 +61,8 @@ class FirstScreen extends StatelessWidget {
                       print("Tap Event");
                     },
                     text: [
-                      "Kevin D'souza",
-                      "Aryan Shah",
-                      "Charmi Shah",
-                      "Khushi Shah",
-                      "Devansh Shah",
+                      " ",
+
                     ],
                     textStyle: TextStyle(
                       fontSize: 28.0,
@@ -70,9 +70,10 @@ class FirstScreen extends StatelessWidget {
                     textAlign: TextAlign.start,
                     transitionHeight: 86,
                   ),
-                ),*/
+                ),
                 RaisedButton(
                   color: Color(0xFF22456D),
+                  padding: EdgeInsets.fromLTRB(0,0,0, 0),
                   child: Text(
                     'LAUNCH',
                     style: TextStyle(
@@ -81,7 +82,6 @@ class FirstScreen extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
-                    
                     // Navigate to the second screen using a named route.
                     Navigator.pushNamed(context, '/second');
                   },
