@@ -180,7 +180,7 @@ class _AlgorithmState extends State<Algorithm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('FCFS Try 2'),
+        title: Text('SJN'),
         backgroundColor: Colors.amber,
         actions: <Widget>[
           Padding(
