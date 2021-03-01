@@ -22,7 +22,7 @@ void main() {
       '/second': (context) => IntroTwoPage(),
       '/third': (context) => WaveDemoApp(),
       '/fourth': (context) => OSProject(),
-      //'/FCFS': (context) => FCFS(),
+      '/FCFS': (context) => FCFS(),
     },
   ));
 }
